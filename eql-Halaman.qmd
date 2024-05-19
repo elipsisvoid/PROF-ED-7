@@ -5,7 +5,8 @@ author: "Julie D. Halaman"
 format: pdf 
 editor: visual 
 ---
----
+
+------------------------------------------------------------------------
 
 ## ANTIDIFFERENTIATION AND INDEFINITE INTEGRALS
 
