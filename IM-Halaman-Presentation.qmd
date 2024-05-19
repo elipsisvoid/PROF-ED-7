@@ -1,0 +1,16 @@
+---
+title: "Derivatives of Trigonometric Functions"
+author: Julie D. Halaman
+format: 
+  revealjs:
+    footer: "Derivatives of Trigonometric Functions"
+    theme: cerulean
+    transition: slide
+    title-slide-attributes: 
+    data-background-image: https://f298031f637b482497be3f5c6e591fb9.app.posit.cloud/file_show?path=%2Fcloud%2Fproject%2Fbackground.jpg
+editor: visual
+---
+
+
+
+
