@@ -4,23 +4,14 @@ author: Julie D. Halaman
 format: 
   revealjs:
     footer: "Derivatives of Trigonometric Functions"
-<<<<<<< HEAD
     theme: serif
     transition: slide
     title-slide-attributes: 
       data-background-image: background.jpg
     scrollable: true
-=======
-    theme: cerulean
-    transition: slide
-    title-slide-attributes: 
-    data-background-image: https://f298031f637b482497be3f5c6e591fb9.app.posit.cloud/file_show?path=%2Fcloud%2Fproject%2Fbackground.jpg
->>>>>>> db33c20d2a317e95130de7dc7fd8c70d7ad7d4e9
 editor: visual
 ---
 
-
-<<<<<<< HEAD
 ## Introduction {background-image=background.jpg}
 
 This module will briefly discuss Derivatives of Transcendental Functions particularly Trigonometric Functions. The principles for Trigonometric Functions rely heavily on the principles of Pythagorean Theorem.
@@ -174,7 +165,3 @@ When $\theta=\frac{\pi}{4},$
 $\frac{dx}{d\theta}=40*\frac{-cos(\frac{\pi}{4})}{sin^2(\frac{\pi}{4})}=40*\frac{-1/\sqrt2}{1/2}=-40\sqrt2$ feet per radian.
 
 </div>
-=======
-
-
->>>>>>> db33c20d2a317e95130de7dc7fd8c70d7ad7d4e9

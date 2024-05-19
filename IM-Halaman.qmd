@@ -109,7 +109,7 @@ The derivative of trigonometric functions can also be used to solve real life pr
 
 Example 3: A police car is parked 40 feet from the road at the point *P* in the diagram below. Your vehicle is approaching on the road as in the diagram below and the police are pointing a radar gun at your car. Let *x* denote the distance from your car to the police car and let $\theta$ be the angle between the line of sight of the radar gun and the road. How fast is *x* changing with respect to $\theta$ when $\theta=\frac{\pi}{4}$?
 
-![](IM-Halaman_files/images/Example 3 Image.png){fig-align="center"}
+![](IM-Halaman_files/images/Example%203%20Image.png){fig-align="center"}
 
 Solution: From the illustration, we can write: $$\frac{40}{x}=sin(\theta).$$
 
