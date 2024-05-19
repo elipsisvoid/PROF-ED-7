@@ -1,0 +1,4 @@
+/* styles.css */
+.reveal p {
+    text-align: justify;
+}

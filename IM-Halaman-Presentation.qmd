@@ -1,0 +1,168 @@
+---
+title: "Derivatives of Trigonometric Functions"
+author: Julie D. Halaman
+format: 
+  revealjs:
+    footer: "Derivatives of Trigonometric Functions"
+    theme: serif
+    transition: slide
+    title-slide-attributes: 
+      data-background-image: background.jpg
+    scrollable: true
+editor: visual
+---
+
+
+## Introduction {background-image=background.jpg}
+
+This module will briefly discuss Derivatives of Transcendental Functions particularly Trigonometric Functions. The principles for Trigonometric Functions rely heavily on the principles of Pythagorean Theorem.
+
+## {background-image=background.jpg}
+
+In the right triangle $\triangle ABC$ shown below,$\angle BCA$ or simply $\angle C$ measures 90$^{\circ}$ (hence making it a right triangle). The legs of the triangle ABC are the line segments *b* and *a*, the lines on either side of $\angle C$, also called *legs.* Meanwhile, the *hypotenuse* of the triangle is the line segment *c* which is opposite $\angle C$.
+
+![](https://homework.study.com/cimages/multimages/16/resize-1612330746441729655figure12489830288820634925.png){fig-align="center" width="179"}
+
+## {background-image=background.jpg}
+
+The Pythagorean theorem states that the sum of the squares of the measures of the legs *a* and *b* of $\triangle ABC$ is equal to the square of the measure of the hypotenuse *c* that is *a*$^{2}$ + *b*$^{2}$ = *c*$^{2}$. By laying the given right triangle $\triangle ABC$ in a unit circle as shown below, the formula *a*$^{2}$ + *b*$^{2}$ = *c*$^{2}$ becomes *a*$^{2}$ + *b*$^{2}$ = 1. Recall that the radius of a unit circle is equal to 1 unit, which in the triangle shown in the figure beforehand, corresponds to the hypotenuse *c*.
+
+## {background-image=background.jpg}
+
+Trigonometric functions, also known as Circular Functions, can be defined as the functions of an angle of a triangle. Trig functions identify the relationships between the angles and sides of a triangle. The basic trigonometric functions are sine, cosine, tangent, cotangent, secant and cosecant.
+
+
+## The Trigonometric Functions {background-image=background.jpg}
+
+Solving for the values of the legs *a* and *b* of the triangle above leads us to the use of the SOHCAHTOA formulas, which stemmed from the three trigonometric functions sine (sin), cosine (cos), and tangent (tan).
+
+## The Sine Function {background-image=background.jpg}
+
+The *sine* of an angle is the ratio between the length of the opposite side to the length of the hypotenuse. From the above diagram, the value of the sine of $\angle BAC$ will be:
+
+-   **Sin A =** $\frac{Opposite}{Hypotenuse}$ = $\frac{CB}{BA}$
+
+## The Cosine Function {background-image=background.jpg}
+
+The *cosine* of an angle is the ratio of the length of the adjacent side to the length of the hypotenuse. From the above diagram, the cos function will be derived as follows:
+
+-   **Cos A =** $\frac{Adjacent}{Hypotenuse}$ = $\frac{CA}{BA}$
+
+## The Tangent Function {background-image=background.jpg}
+
+The *tangent function* is the ratio of the length of the opposite side to that of the adjacent side. From the diagram taken above, the tan function will be the following:
+
+-   **Tan A =** $\frac{Opposite}{Adjacent}$ = $\frac{CB}{CA}$
+
+The tangent can also be expressed in terms of sin and cos as follows:
+
+-   **Tan A =** $\frac{Sin A}{Cos A}$ = $\frac{CB}{CA}$
+
+## Other Trigonometric Formulas {background-image=background.jpg}
+
+Aside from the initial three functions, there are other trigonometric formulas as shown in the following:
+
+-   **Sec A =** $\frac{1}{Cos A}$ = $\frac{Hypotenuse}{Adjacent}$ = $\frac{BA}{CA}$
+
+-   **Cosec A =** $\frac{1}{Sin A}$ = $\frac{Hypotenuse}{Opposite}$ = $\frac{BA}{CB}$
+
+-   **cot a =** $\frac{1}{Tan A}$ = $\frac{Adjacent}{Opposite}$ = $\frac{CA}{CB}$
+
+## {background-image=background.jpg} 
+
+Recall that sin*x* and cos*x* are defined and continuous everywhere whereas the functions tan*x*, sec*x*, csc*x*, and cot*x* are continuous on their domains (all values of *x* where the denominator is non-zero).
+
+## {background-image=background.jpg}
+
+Before we dive into the derivatives of trigonometric functions, let us first discuss their limits.
+
+Consider the unit circle given by the figure below.
+
+![](clipboard-2032292710.png){fig-align="center"}
+
+## Derivatives of Trigonometric Functions {background-image=background.jpg}
+
+Now that we have reviewed trigonometric functions, we are now ready for the derivation of trig functions.
+
+For conformity, we will be using the Leibnitz Notation or Differential Notation throughout this module.
+
+## {background-image=background.jpg}
+
+The Leibnitz notation is given by: $$
+\frac{df}{dx}
+$$
+
+or
+
+$$
+\frac{d}{dx}f(x) .
+$$
+
+## {background-image=background.jpg}
+
+Recall that $$
+\frac{d}{dx}sin(x) = cos(x)
+$$
+
+and
+
+$$
+ \frac{d}{dx}cos(x)=-sin(x).
+ $$
+
+## {background-image=background.jpg}
+
+To remember which derivative contains the negative sign, recall the graphs of the sine and cosine functions. At *x=0*, *sin(x)* is increasing, and *cos(x)* is positive, thus the derivative is a positive *cos(x)*. Meanwhile, just after *x=0*, *cos(x)* is decreasing, and *sin(x)* is positive, so the derivative must be a negative *sin(x)*.
+
+## {background-image=background.jpg} 
+
+Knowledge of the derivatives of sine and cosine allows us to find the derivatives of all the other trigonometric functions using the quotient rule.Recall the following identities:
+
+$$tan(x)=\frac{sin(x)}{cos(x)}$$ $$cot(x)=\frac{cos(x)}{sin(x)}$$ $$sec(x)=\frac{1}{cos(x)}$$ $$csc(x)=\frac{1}{sin(x)}$$
+
+Using this knowledge, let us find the derivative of each function.
+
+## {background-image=background.jpg}
+
+Example 1: Find the derivative of $csc(x).$
+
+Recall that $csc(x)=\frac{1}{sin(x)}.$
+
+Now let us apply the quotient rule. $$\frac{d}{dx}csc(x)$$
+$$=\frac{sin(x)*0-1*cos(x)}{sin(x)^2}$$
+$$=-\frac{cos(x)}{sin(x)}*\frac{1}{sin(x)}$$
+$$=-cot(x)csc(x)$$
+
+## {background-image=background.jpg}
+
+Example 2: Find the derivative of $e^x*cos(x)+x^2.$
+
+Solution: To find this derivative, we will utilize the sum and product rules. $$\frac{d}{dx}(e^x*cos(x)+x^2)$$
+$$=e^x*cos(x)+e^x*(-sin(x))+2x$$
+$$=e^x(cos(x)-sin(x))+2x$$
+
+## {background-image=background.jpg}
+
+The derivative of trigonometric functions can also be used to solve real life problems. Consider the following problem and its solution.
+
+## {background-image=background.jpg}
+
+Example 3: A police car is parked 40 feet from the road at the point *P* in the diagram below. Your vehicle is approaching on the road as in the diagram below and the police are pointing a radar gun at your car. Let *x* denote the distance from your car to the police car and let $\theta$ be the angle between the line of sight of the radar gun and the road. How fast is *x* changing with respect to $\theta$ when $\theta=\frac{\pi}{4}$? 
+
+## {background-image=background.jpg}
+
+![](IM-Halaman_files/images/Example 3 Image.png){fig-align="center"}
+
+## {background-image=background.jpg}
+
+Solution: From the given illustration, we can write: $$\frac{40}{x}=sin(\theta).$$
+
+Therefore, $$\frac{40}{sin(\theta)}=x$$
+
+and $$\frac{dx}{d\theta}=40*\frac{-cos(\theta)}{sin^2(\theta)}.$$
+
+When $\theta=\frac{\pi}{4},$
+
+$\frac{dx}{d\theta}=40*\frac{-cos(\frac{\pi}{4})}{sin^2(\frac{\pi}{4})}=40*\frac{-1/\sqrt2}{1/2}=-40\sqrt2$ feet per radian.
+
+</div>

@@ -13,7 +13,7 @@ This module will briefly discuss Derivatives of Transcendental Functions particu
 
 ![](https://homework.study.com/cimages/multimages/16/resize-1612330746441729655figure12489830288820634925.png){fig-align="center" width="179"}
 
-The Pythagorean theorem states that the sum of the squares of the measures of the legs *a* and *b* of $\triangle ABC$ is equal to the square of the measure of the hypotenuse *c* that is *a*$^{2}$ + *b*$^{2}$ = *c*$^{2}$. By laying the given right triangle $\triangle ABC$ in a unit circle as shown below, the formula *a*$^{2}$ + *b*$^{2}$ = *c*$^{2}$ becomes *a*$^{2}$ + *b*$^{2}$ = 1. Recall that the radius of a unit circle is equal to 1 unit, which in the triangle shown below, corresponds to the hypotenuse *c*.
+The Pythagorean theorem states that the sum of the squares of the measures of the legs *a* and *b* of $\triangle ABC$ is equal to the square of the measure of the hypotenuse *c* that is *a*$^{2}$ + *b*$^{2}$ = *c*$^{2}$. By laying the given right triangle $\triangle ABC$ in a unit circle as shown below, the formula *a*$^{2}$ + *b*$^{2}$ = *c*$^{2}$ becomes *a*$^{2}$ + *b*$^{2}$ = 1. Recall that the radius of a unit circle is equal to 1 unit, which in the triangle shown in the figure above, corresponds to the hypotenuse *c*.
 
 Trigonometric functions, also known as Circular Functions, can be defined as the functions of an angle of a triangle. Trig functions identify the relationships between the angles and sides of a triangle. The basic trigonometric functions are sine, cosine, tangent, cotangent, secant and cosecant.
 
@@ -109,7 +109,7 @@ The derivative of trigonometric functions can also be used to solve real life pr
 
 Example 3: A police car is parked 40 feet from the road at the point *P* in the diagram below. Your vehicle is approaching on the road as in the diagram below and the police are pointing a radar gun at your car. Let *x* denote the distance from your car to the police car and let $\theta$ be the angle between the line of sight of the radar gun and the road. How fast is *x* changing with respect to $\theta$ when $\theta=\frac{\pi}{4}$?
 
-![](images/Example%203%20Image.png){fig-align="center"}
+![](IM-Halaman_files/images/Example 3 Image.png){fig-align="center"}
 
 Solution: From the illustration, we can write: $$\frac{40}{x}=sin(\theta).$$
 
@@ -120,3 +120,5 @@ and $$\frac{dx}{d\theta}=40*\frac{-cos(\theta)}{sin^2(\theta)}.$$
 When $\theta=\frac{\pi}{4},$
 
 $\frac{dx}{d\theta}=40*\frac{-cos(\frac{\pi}{4})}{sin^2(\frac{\pi}{4})}=40*\frac{-1/\sqrt2}{1/2}=-40\sqrt2$ feet per radian.
+
+</div>
