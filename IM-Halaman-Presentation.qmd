@@ -4,15 +4,23 @@ author: Julie D. Halaman
 format: 
   revealjs:
     footer: "Derivatives of Trigonometric Functions"
+<<<<<<< HEAD
     theme: serif
     transition: slide
     title-slide-attributes: 
       data-background-image: background.jpg
     scrollable: true
+=======
+    theme: cerulean
+    transition: slide
+    title-slide-attributes: 
+    data-background-image: https://f298031f637b482497be3f5c6e591fb9.app.posit.cloud/file_show?path=%2Fcloud%2Fproject%2Fbackground.jpg
+>>>>>>> db33c20d2a317e95130de7dc7fd8c70d7ad7d4e9
 editor: visual
 ---
 
 
+<<<<<<< HEAD
 ## Introduction {background-image=background.jpg}
 
 This module will briefly discuss Derivatives of Transcendental Functions particularly Trigonometric Functions. The principles for Trigonometric Functions rely heavily on the principles of Pythagorean Theorem.
@@ -150,7 +158,7 @@ The derivative of trigonometric functions can also be used to solve real life pr
 Example 3: A police car is parked 40 feet from the road at the point *P* in the diagram below. Your vehicle is approaching on the road as in the diagram below and the police are pointing a radar gun at your car. Let *x* denote the distance from your car to the police car and let $\theta$ be the angle between the line of sight of the radar gun and the road. How fast is *x* changing with respect to $\theta$ when $\theta=\frac{\pi}{4}$? 
 
 ## {background-image=background.jpg}
-
+ 
 ![](IM-Halaman_files/images/Example 3 Image.png){fig-align="center"}
 
 ## {background-image=background.jpg}
@@ -166,3 +174,7 @@ When $\theta=\frac{\pi}{4},$
 $\frac{dx}{d\theta}=40*\frac{-cos(\frac{\pi}{4})}{sin^2(\frac{\pi}{4})}=40*\frac{-1/\sqrt2}{1/2}=-40\sqrt2$ feet per radian.
 
 </div>
+=======
+
+
+>>>>>>> db33c20d2a317e95130de7dc7fd8c70d7ad7d4e9
